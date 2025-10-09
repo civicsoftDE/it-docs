@@ -2,12 +2,22 @@
 
 Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt.
 
+Meine besondere Lernleistung
+**Machine-Vision als Grundlage zur Entwicklung innovativer Konferenzsysteme. Ein Forschungsprojekt unter dem Aspekt der technischen Informatik**,
+die ich mit $\LaTeX$ verfasste, findest du <a href="/assets/pdf/Hausarbeit.pdf" target="_blank">hier als PDF</a>.
+
+Referenz- und Begleitfächer waren Informatik und Physik.
+
+Die zur BLL entwickelten Java-Projekte sind hier zu finden:
+
+- [MVS Core Software](https://github.com/btinet/gamereactcore)
+- [Pong React (Vorstudie)](https://github.com/btinet/gamereact)
+
 ## Was ist neu
 
 - Suchfunktion implementiert ✔️
 - Abi-Rechner ✔️
 - Interaktive SQL-Abfragen zu zahlreichen Übungsdatenbanken ✔️
-  - Nutzung über [API für eigene Projekte](https://packagist.org/packages/treptowkolleg/api) möglich
 - Abituraufgaben für Physik ✔️
 - Lerninhalte für Mathematik ✔️
 - 
@@ -16,7 +26,8 @@ Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt
 
 - Login-Formular ✔️
 - TicTacToe-Spiel in PHP 🔨
-  - fertiges [Musterbeispiel](https://ttt.treptowkolleg.de)
+- Terminal-basiertes RPG in PHP 🔨
+- Terminal-RPG nach C++ portieren 🔨
 
 ## Über mich
 
@@ -75,10 +86,12 @@ jedoch der letzte sein, der am Treptow-Kolleg das Fach Informatik belegen konnte
 welche Möglichkeiten sich für die Lernenden des am Standort des Kollegs neu gegründeten Gymnasiums auftun werden.
 In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil sein kann.
 
+### Studium
+
+*to be continued ...*
+
 <p>&nbsp;</p>
 
 ![Unterschrift](/docs/img/sign.png)
 
 Leitung, AG Informatik
-
-<span>PHP-Packages für Entwicklungen wie Urlaub bei <a target="_blank" href="https://github.com/vaganca"><i>Vaganca Frameworks</i></a>.</span>

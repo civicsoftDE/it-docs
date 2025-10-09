@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="TreptowKolleg\Api\" />
-      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
@@ -29,5 +28,10 @@
     <orderEntry type="library" name="chota" level="application" />
     <orderEntry type="library" name="vanilla-framework-version-4.7.0" level="application" />
     <orderEntry type="library" name="@sidsbrmnn/scrollspy" level="application" />
+    <orderEntry type="library" name="browse" level="application" />
+    <orderEntry type="library" name="@highlightjs/cdn-assets" level="application" />
+    <orderEntry type="library" name="highlight.js" level="application" />
+    <orderEntry type="library" name="fonts" level="application" />
+    <orderEntry type="library" name="tikzjax" level="application" />
   </component>
 </module>

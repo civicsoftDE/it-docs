@@ -30,7 +30,7 @@ use TreptowKolleg\Api\Session;
         <script src="/assets/cab.js" type="text/javascript"></script>
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
-        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/a11y-light.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/hybrid.min.css">
 
         <style>
             details{
@@ -49,9 +49,13 @@ use TreptowKolleg\Api\Session;
                 height: 100%;
                 vertical-align: middle;
             }
+            pre {
+                background: none!important;
+                padding: 0!important;
+            }
         </style>
-        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js" integrity="sha512-6yoqbrcLAHDWAdQmiRlHG4+m0g/CT/V9AGyxabG8j7Jk8j3r3K6due7oqpiRMZqcYe9WM2gPcaNNxnl2ux+3tA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/latex.min.js" integrity="sha512-pFyz4NqzwEQdlyFXfDFIFeKX2k9zqkFu37xCxrjdrDCrprIy/bRItO0jXjii7nyxqwaCK2KfZ/9idRE/x4TkRQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>hljs.highlightAll();</script>
     </head>
     <body class="is-paper">
@@ -85,7 +89,10 @@ use TreptowKolleg\Api\Session;
                                         <a class="p-navigation__link" href="/?page=t-abirechner">Abi-Rechner</a>
                                     </li>
                                     <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/?page=t-vp">Philosophie</a>
+                                        <a class="p-navigation__link" target="_blank" href="https://abi.treptowkolleg.de">5. PK Verwaltung</a>
+                                    </li>
+                                    <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" target="_blank" href="https://wahl.treptowkolleg.de">Wahl Digital</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
@@ -147,11 +154,25 @@ use TreptowKolleg\Api\Session;
         <div class="l-docs__subgrid">
             <div class="l-docs__main">
                 <div class="row">
-                    <div class="col">
-                        <small>Diese Website verwendet Server von</small><br>
-                        <img src="/assets/img/LOGO_IONOS_Blue_RGB-1.png" alt="IONOS Logo" width="200" style="vertical-align: middle">
-                        <p>&nbsp;</p>
+                    <div class="col-4 u-vertically-center">
+                        <div>
+                            <small>Mitglied in</small>
+                        </div>
                     </div>
+                    <div class="col-4 u-vertically-center">
+                        <a href="https://www.dpg-physik.de/" target="_blank">
+                            <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
+                        </a>
+
+                    </div>
+                    <div class="col-4 u-vertically-center">
+                        <a href="https://www.gi.de" target="_blank">
+                            <img src="/assets/img/gi.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">&nbsp;</div>
                 </div>
             </div>
         </div>
@@ -159,7 +180,7 @@ use TreptowKolleg\Api\Session;
     <footer class="l-footer--sticky p-strip--dark">
         <div class="l-docs__subgrid">
             <div class="l-docs__sidebar u-fixed-width">
-                <p class="u-no-margin--bottom">© 2023-<?=date("Y")?><br>Benjamin Wagner.</p>
+                <p class="u-no-margin--bottom">© 2021-<?=date("Y")?><br>Benjamin Wagner</p>
             </div>
             <div class="l-docs__main">
                 <div class="row">
@@ -179,7 +200,6 @@ use TreptowKolleg\Api\Session;
                     <div class="col-9">
                         <p class="u-no-margin--bottom">
                             <div class="helper"><span>Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</span></div>
-                            <span>Powered by <i><img src="/docs/img/vf-logo.svg" width="32px" alt="Vaganca Frameworks Logo" style="vertical-align:middle">Vaganca Frameworks</i></span>
                         </p>
                     </div>
                 </div>
@@ -188,27 +208,6 @@ use TreptowKolleg\Api\Session;
         <div class="is-wide"><p>&nbsp;</p></div>
     </footer>
     <script src="/dist/app.js"></script>
-    <script>
-        MathJax = {
-            tex: {
-                packages: ['base'],        // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$']
-                ],
-                processEscapes: true,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
-                // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'left',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-            }
-        }
-    </script>
     <script>
         MathJax = {
             tex: {
