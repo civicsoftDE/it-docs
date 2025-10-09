@@ -7,8 +7,7 @@ selbst. Sie bestehen also aus einem Methodenkopf und einem Methodenkörper.
 
 ````java
 // Klassenname.java
-public class Klassenname // Klassenkopf
-{
+public class Klassenname // Klassenkopf {
     
     public Rückgabedatentyp methodenName // Methodenkopf
             (
@@ -36,12 +35,10 @@ Unsere Klasse ``Agent`` könnte also folgenden Constructor haben:
 
 ````java
 // Agent.java
-public class Agent // Klassenkopf
-{
+public class Agent // Klassenkopf {
     public String name; // Attribut
     
-    public Agent() // Constructor, Methodenkopf
-    {
+    public Agent() // Constructor, Methodenkopf {
         // Constructor, Methodenkörper
     }
 }
@@ -50,10 +47,8 @@ public class Agent // Klassenkopf
 Um zu verstehen, was die Constructor-Methode macht, könnten wir uns den Aufbau so vorstellen:
 
 ````java
-public class Agent // Klassenkopf
-{    
-    public Agent constructor() // Constructor, Methodenkopf
-    {
+public class Agent // Klassenkopf {    
+    public Agent constructor() // Constructor, Methodenkopf {
         // Constructor, Methodenkörper
     }
 }
@@ -86,16 +81,13 @@ implementieren.
 
 ````java
 // Agent.java
-public class Agent
-{
+public class Agent {
     protected String name;
     
-    public Agent()
-    {
+    public Agent() {
     }
     
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 }
@@ -108,16 +100,13 @@ auch eine andere Herangehensweise denkbar.
 
 ````java
 // Agent.java
-public class Agent
-{
+public class Agent {
    protected String name;
 
-   public Agent()
-   {
+   public Agent() {
    }
 
-   public void setName(int code)
-   {
+   public void setName(int code) {
       
       // Gegenbeispiel für den Fall, wo der Parameterdatentyp abweicht. 
       switch (code) {
@@ -144,11 +133,9 @@ Bisher:
 
 ````java
 // Start.java
-public class Start
-{
+public class Start {
     
-   public void main(String[] vars) 
-   {
+   public static void main(String[] args) {
        Agent bond = new Agent();
        
        // Setter geben void zurück
@@ -166,11 +153,9 @@ Mit Method-Chaining:
 
 ````java
 // Start.java
-public class Start
-{
+public class Start {
     
-   public void main(String[] vars) 
-   {
+   public static void main(String[] args) {
        Agent bond = new Agent();
 
       // Setter geben Agent zurück
@@ -189,16 +174,13 @@ Die Methode ``setName()`` sähe dann folgendermaßen aus:
 
 ````java
 // Agent.java
-public class Agent
-{
+public class Agent {
     protected String name; 
     
-    public Agent() 
-    {
+    public Agent() {
     }
     
-    public Agent setName(String name)
-    {
+    public Agent setName(String name) {
         this.name = name;
         
         return this; // statt void wird 'Agent' zurückgegeben.
@@ -216,16 +198,13 @@ Die get-Methode gibt **nicht** void, sondern den Datentyp des Attributs zurück.
 
 ````java
 // Agent.java
-public class Agent
-{
+public class Agent {
     protected String name; 
     
-    public Agent() 
-    {
+    public Agent() {
     }
     
-    public String getName() // Der Rückgabe-Datentyp ist 'String', da der Datentyp des Attributs auch 'String' ist
-    {
+    public String getName() // Der Rückgabe-Datentyp ist 'String', da der Datentyp des Attributs auch 'String' ist {
         return this.name; // Gibt den Inhalt des Attributs 'name' zurück
     }
 }
@@ -235,21 +214,17 @@ Die komplette Klasse ``Agent`` sieht bis hierher nun so aus:
 
 ````java
 // Agent.java
-public class Agent
-{
+public class Agent {
     protected String name; 
     
-    public Agent() 
-    {
+    public Agent() {
     }
 
-   public vois setName(String name)
-   {
+   public vois setName(String name) {
       this.name = name;
    }
     
-    public String getName()
-    {
+    public String getName() {
         return this.name;
     }
         
@@ -265,8 +240,7 @@ wir dafür dem entsprechenden Attribut geben möchten.
 
 ````java
 // Agent.Java
-public class Agent
-{
+public class Agent {
 
     // Variante A
     protected Fahrzeug[] fahrzeugListe = new Fahrzeug[2];
@@ -288,12 +262,10 @@ Gibt es weitere Möglichkeiten?
 
 ````java
 // Variante A
-public class Agent
-{
+public class Agent {
    protected Fahrzeug[] fahrzeugListe = new Fahrzeug[2];
    
-   public void setFahrzeug(int position, Fahrzeug fahrzeug)
-   {
+   public void setFahrzeug(int position, Fahrzeug fahrzeug) {
        // Der Sammlung wird am index x ein Fahrzeug hinzugefügt
        this.fahrzeugListe[position] = fahrzeug;
    }
@@ -307,17 +279,14 @@ komplizierter, da die Sammlung sehr statisch ist.
 
 ````java
 // Variante B
-public class Agent
-{
+public class Agent {
    protected ArrayList<Fahrzeug> fahrzeugListe = new ArrayList<>();
 
-   public void addFahrzeug(Fahrzeug fahrzeug)
-   {
+   public void addFahrzeug(Fahrzeug fahrzeug) {
       // Der ArrayList wird ein Fahrzeug hinzugefügt
    }
 
-   public void addFahrzeug(int position, Fahrzeug fahrzeug)
-   {
+   public void addFahrzeug(int position, Fahrzeug fahrzeug) {
       // Der ArrayList wird ein Fahrzeug an einer bestimmten Position hinzugefügt/ersetzt
    }
     

@@ -23,8 +23,7 @@ Klammern notiert. Der Klassenkörper folgt unmittelbar dem Klassenkopf.
 
 ````java
 // Klassenname.java
-public class Klassenname // Klassenkopf
-{    
+public class Klassenname // Klassenkopf {    
     // Klassenkörper    
 }
 ````
@@ -58,8 +57,7 @@ Da der Agentenname eine Zeichenkette sein soll, setzen wir als Datentyp ``String
 
 ````java
 // Agent.java
-public class Agent // Klassenkopf
-{
+public class Agent // Klassenkopf {
     public String name; // Attribut (Datentyp attributName)
 }
 ````

@@ -68,3 +68,32 @@ public class Printer {
     
 }
 ````
+
+## Rechnen in Java
+
+### Integer
+
+### Float und Double
+
+Als Standardtyp für Fließkommazahlen wird in Java nur noch``double`` verwendet.
+Der Datentyp ``float`` soll nicht mehr verwendet werden.
+
+
+````php
+// Calculator.java
+package edu.pr1;
+
+public class Calculator {
+    
+    public static void main(String[] args) {
+        int n = 5;
+        int o = 0;
+        
+        for (int i = 1; i < n; i++) {
+            0 += i;
+        }
+        System.out.printf("Die gaußsche Summe mit i=1 und n=%d ist %d%n", n, o);
+    }
+    
+}
+````

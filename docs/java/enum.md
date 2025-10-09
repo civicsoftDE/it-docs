@@ -50,14 +50,12 @@ public abstract class Agent {
 ````
 
 ````java
-public class Human extends Agent
-{
+public class Human extends Agent {
 
     protected String firstname;
     protected String lastname;
 
-    public Human(String firstname, String lastname, ArrayList<Vehicle> vehicles, ArrayList<Equipment> equipment, AgentType agentType)
-    {
+    public Human(String firstname, String lastname, ArrayList<Vehicle> vehicles, ArrayList<Equipment> equipment, AgentType agentType) {
         this.firstname = firstname;
         this.lastname = lastname;
         super.vehicles = vehicles; // Statt super funktionert auch this, da Human ja von Agent geerbt hat.
@@ -77,8 +75,7 @@ Nun können wir im Client Code mit der ``enum`` arbeiten:
 ````java
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         Agent bond = new HumanBuilder()
                 .setFirstname("James")
