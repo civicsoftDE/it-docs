@@ -71,6 +71,8 @@ public class Printer {
 
 ## Rechnen in Java
 
+Jede Variable hat einen **Speicherbereich**, einen **Namen** und einen **Datentyp**.
+
 ### Integer
 
 ### Float und Double
