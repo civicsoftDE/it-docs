@@ -1,5 +1,23 @@
 # Summen
 
+## Zahlensysteme
+
+Eine Zahl $x$ des Zahlensystems der Basis $b$ lässt sich mit der Stelle $d$ als die Summe
+
+$$ x = \sum_{i=1}^{n} d_i \cdot b^{n-i}  $$
+
+darstellen.
+
+### Beispiel
+
+Die vierstellige Dezimalzahl $x = 1024_{10} $ mit $b=10$ lässt sich darstellen als:
+
+$$ 1024 = \sum_{i=1}^{4} d_i \cdot b^{4-i} = 1 \cdot 10^3 + 0 \cdot 10^2 + 2 \cdot 10^1 + 4 \cdot 10^0 $$
+
+Die Dezimalzahl $x = 9 $ lässt sich darstellen als vierstellige Binärzahl $1001_2$ mit $b=2 $ als:
+
+$$ 1001 = \sum_{i=1}^4 d_i \cdot b^{4-i} = 1 \cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 $$
+
 ## Gaußsche Summenformel
 
 ### Vollständige Summen
