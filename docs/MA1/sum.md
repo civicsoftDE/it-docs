@@ -16,7 +16,7 @@ $$
 
 Die Summe der ersten n geraden Zahlen:
 
-$$ 2+4+6+\text{...}+n+2n = \sum_{k=1}^n 2k = 2 \cdot \frac{n(n+1)}{2} = n(n+1) $$
+$$ 2+4+6+\text{...}+2(n-1)+2n = \sum_{k=1}^n 2k = 2 \cdot \frac{n(n+1)}{2} = n(n+1) $$
 
 ### Ungerade Zahlen
 
