@@ -25,7 +25,7 @@ Die Summe der ersten n ungeraden Zahlen:
 $$
 \begin{equation}\label{uneven_nr}
 \begin{array}[b]{rll}
-1+3+5+\text{...}+(n-1)+(2n-1) &= \sum_{k=1}^n (2k-1) \\\
+1+3+5+\text{...}+(2(n-1)-1)+(2n-1) &= \sum_{k=1}^n (2k-1) \\\
 &= 2 \sum_{k=1}^n k - \sum_{k=1}^n 1 \\\
 &= (n^2+n)-n \\\
 &= n^2
