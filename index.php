@@ -201,6 +201,7 @@ function getName(string $file): ?string
         'lineq' => 'Lineare Gleichungssysteme',
         'folgen' => 'Folgen',
         'diff' => 'Differenzialrechnung',
+        'sum' => 'Summen',
         'logik' => 'Logik',
         'mengen' => 'Mengen',
         'zahlen' => 'Zahlen',
