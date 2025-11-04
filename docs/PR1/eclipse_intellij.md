@@ -41,21 +41,21 @@ Nun müssen wir die Projekt-Struktur anpassen.
 
 Hier wählen wir am besten dieselbe Version wie in Eclipse. Dies können wir aber jederzeit ändern.
 
-![img.png](/docs/PR1/sdk.png)
+![img.png](/docs/img/imgsdk.png)
 
 #### Modul erstellen
 
-![img.png](/docs/PR1/img.png)
+![img.png](/docs/img/imgJ1.png)
 
 Wir wollen ein **Java-Modul** erstellen. Als Build-System nutzen wir **IntelliJ**. Maven und Gradle sind besondere
 Modulmanager, die wir aktuell nicht verwenden.
 
 Als JDK wählen wir hier ggf. noch die richtige Version aus.
 
-![img_1.png](/docs/PR1/img_1.png)
+![img_1.png](/docs/img/imgJ2.png)
 
 ### Aktualisierte Ordnerstruktur
 
 Wie auch Eclipse hat nun IntelliJ eigene Ordner und Config-Dateien erstellt. Beide IDEs wissen nun, mit deinem Projekt umzugehen.
 
-![img_2.png](/docs/PR1/img_2.png)
+![img_2.png](/docs/img/imgJ3.png)
