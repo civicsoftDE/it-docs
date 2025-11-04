@@ -85,14 +85,8 @@ use TreptowKolleg\Api\Session;
                                     <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'docs-') ? 'is-selected' : ''?>">
                                         <a class="p-navigation__link" href="/">Unterricht</a>
                                     </li>
-                                    <li class="p-navigation__item <?= $_GET['page'] == 't-abirechner' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/?page=t-abirechner">Abi-Rechner</a>
-                                    </li>
-                                    <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" target="_blank" href="https://abi.treptowkolleg.de">5. PK Verwaltung</a>
-                                    </li>
-                                    <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" target="_blank" href="https://wahl.treptowkolleg.de">Wahl Digital</a>
+                                    <li class="p-navigation__item">
+                                        <a class="p-navigation__link" href="https://discord.gg/SakBNyvb" target="_blank">Discord (BHT-MI)</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
