@@ -202,6 +202,7 @@ function getName(string $file): ?string
         'folgen' => 'Folgen',
         'diff' => 'Differenzialrechnung',
         'sum' => 'Summen',
+        'eclipse_intellij' => 'Eclipse & IntelliJ',
         'logik' => 'Logik',
         'mengen' => 'Mengen',
         'zahlen' => 'Zahlen',
