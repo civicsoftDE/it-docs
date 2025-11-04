@@ -89,8 +89,6 @@ $(A \implies B) \iff (\overline{B} \implies \overline{A})$
 
 **Beispiel**: Wenn es regnet ($A$), ist die Straße nass ($B$).
 
-## Übung zu Aussagen
-
 ### NAND
 
 #### Negation
@@ -125,19 +123,52 @@ $A(1): 1 \geq 10 \iff (F)$
 
 ### Quantoren
 
-- **All-Aussage**: *Für alle $x$ gilt $A(x)$*
-- **Existenz-Aussage**: *Es existiert ein $x$ mit $A(x)$* (mindestens ein)
+- $\exists Z(k) \lor N(k) \iff \exists Z(k) \lor \exists N(k)$
+- $\exists Z(k) \land N(k) \implies \exists Z(k) \lor \exists N(k)$
+
+
+- $\forall Z(k) \land N(k) \iff \forall Z(k) \lor \forall N(k)$
+- $\forall Z(k) \lor \forall N(k) \implies \forall Z(k) \lor N(k)$
 
 ### Negation von Quantoren
 
 #### Negation der All-Aussage
 
-Alle Schafe sind weiß: Für alle Schafe $x$ gilt, dass $x$ weiß ist:
+$V(m, n) :$ m ist ein Vielfaches von n
 
-$A(x): x$
+_"Jedes $m\in\mathbb{N}$ das kein Vielfaches von 5 ist, ist ein Vielfaches von 2 oder 3."_
 
-1. Nicht alle Schafe sind weiß
-2. Es existiert ein $x$, sodass $\overline{A(x)}$
+$\forall \lnot V(m, 5) \to V(m,2) \lor V(m, 3)$
+
+**Gegenbeispiel:**
+\begin{flalign}
+&\lnot\bigl( \forall \lnot V(m, 5) \to V(m,2) \lor V(m, 3) \bigr) & |\text{de-Morgan (Implizit)} \\\
+\iff &\exists \lnot \bigl( V(m, 5) \lor V(m,2) \lor V(m, 3) \bigr) \\\
+\iff &\exists \lnot V(m, 5) \land \lnot V(m,2) \land \lnot V(m, 3)  \\\
+\end{flalign}
+
+Zum Beispiel: $m = 7 $
+
+##### Beispiel
+
+Gegeben seien der Definitionsbereich $B\ \\{1,2,3,4,5,6,7,8,9\\}$ und die Aussage $P(x,y): x + y = 10 $.
+
+Dann gilt: $\exists_y \forall_x P(x,y) \implies \forall_x \exists_y P(x, y)$
+
+Anders ausgedrückt: _"Wenn es regnet, ist die Straße nass. Wenn es nicht regnet, kann die Straße trotzdem nass sein.
+Wenn die Straße trocken ist, obwohl es regnete, stimmt etwas nicht."_
+
+| Es regnet | Die Straße ist nass | Ergebnis |
+|-----------|---------------------|----------|
+| 1         | 0                   | 0        |   
+| 0         | 1                   | 1        |
+| 1         | 1                   | 1        |
+| 0         | 0                   | 1        |
+
+Warum kann die Straße nun nass sein, obwohl es nicht geregnet hat?
+**Vielleicht hat jemand mit einem Gartenschlauch die Straße nass gemacht**.
+
+Andersherum: **Wenn die Straße trocken ist, kann es auf keinen Fall geregnet haben.**
 
 #### Negation der Existenz-Aussage
 
