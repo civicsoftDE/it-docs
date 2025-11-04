@@ -172,9 +172,4 @@ Andersherum: **Wenn die Straße trocken ist, kann es auf keinen Fall geregnet ha
 
 #### Negation der Existenz-Aussage
 
-Es existiert ein Schaf, das weiß ist.
 
-Für ein $x$ gilt $A(x)$
-
-1. Kein Schaf ist weiß
-2. Für alle $x$ gilt $\overline{A(x)}$
