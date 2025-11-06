@@ -203,6 +203,8 @@ function getName(string $file): ?string
         'diff' => 'Differenzialrechnung',
         'sum' => 'Summen',
         'eclipse_intellij' => 'Eclipse & IntelliJ',
+        'normalform' => 'Normalform',
+        'numbers' => 'Zahlen',
         'logik' => 'Logik',
         'mengen' => 'Mengen',
         'zahlen' => 'Zahlen',

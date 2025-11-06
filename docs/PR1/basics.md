@@ -100,7 +100,7 @@ public class Calculator {
 }
 ````
 
-
+## Eigene Hilfsklassen
 
 ### FancyFileWriter
 
