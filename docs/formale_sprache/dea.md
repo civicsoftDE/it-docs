@@ -65,6 +65,8 @@ Das Zeichen ``-`` fehlt zwar im Graphen, soll hier aber als Teil von ``a..Z`` ge
 
 ![img.png](/docs/img/email.svg)
 
+**Wie sieht die Überführungs- und Ausgabefunktion aus?**
+
 Ausgedrückt in Formaler Sprache (BNF):
 
 ````php
