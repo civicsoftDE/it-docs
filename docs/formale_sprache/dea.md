@@ -91,6 +91,6 @@ email    -> local "@" domain "." tld ;
 local    -> label { "." label } ;
 domain   -> label { "." label } ;
 label    -> letter { letter } ;
-letter   -> "a" | "b" | ... | "z" | "A" | ... | "Z" ;
+letter   -> "a" | ... | "z" | "A" | ... | "Z" ;
 tld      -> "de" | "com" ;
 ````
