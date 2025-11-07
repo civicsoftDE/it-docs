@@ -16,26 +16,26 @@ $A=(X,Y,Z,\delta,z_0)$
 
 ### Überführungsfunktion
 
-Zustand / Eingabe | $0$ | $1$
---------|---------|------------------
-$z_0$  |   $z_0$   |      $z_1$
-$z_1$   |   $z_1$  |      $z_0$
+| Zustand / Eingabe | $0$   | $1$   |
+|-------------------|-------|-------|
+| $z_0$             | $z_0$ | $z_1$ |
+| $z_1$             | $z_1$ | $z_0$ |
 
 ### Ausgabefunktion
 
-Zustand / Eingabe | $0$ | $1$
---------|---------|------------------
-$z_0$ |   $0$   |      $1$
-$z_1$   |   $0$  |      $1$
+| Zustand / Eingabe | $0$ | $1$ |
+|-------------------|-----|-----|
+| $z_0$             | $0$ | $1$ |
+| $z_1$             | $0$ | $1$ |
 
 ### Impulsdiagramm
 
-Zustand | Eingabe | Nächster Zustand | Ausgabe
---------|---------|------------------|--------
-$z_0$  |   $0$   |      $z_0$      |   $0$
-$z_0$   |   $1$   |      $z_1$       |   $1$
-$z_1$   |   $0$   |      $z_1$       |   $0$
-$z_1$   |   $1$   |      $z_0$      |   $1$
+| Zustand | Eingabe | Nächster Zustand | Ausgabe |
+|---------|---------|------------------|---------|
+| $z_0$   | $0$     | $z_0$            | $0$     |
+| $z_0$   | $1$     | $z_1$            | $1$     |
+| $z_1$   | $0$     | $z_1$            | $0$     |
+| $z_1$   | $1$     | $z_0$            | $1$     |
 
 ## Zustands-Graph
 
@@ -56,7 +56,7 @@ Nehmen wir mal den Fall an, dass wir die E-Mail-Adresse ``ich.studiere.an.der@bh
 
 Wir definieren: $A=(X,Y,Z,\delta,z_0)$
 
-- $X = \{a..Z, \text{'-'}, \text{'.'},\text{'@'}, \text{'de'}, \text{'com'}\}$
+- $X = \{\text{a..Z}, \text{'-'}, \text{'.'},\text{'@'}, \text{'de'}, \text{'com'}\}$
 - $Z = \{a,b,c,d,e,f,g,h,i,k,m\}$
 - $\delta: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0 = a$
@@ -66,6 +66,22 @@ Das Zeichen ``-`` fehlt zwar im Graphen, soll hier aber als Teil von ``a..Z`` ge
 ![img.png](/docs/img/email.svg)
 
 **Wie sieht die Überführungs- und Ausgabefunktion aus?**
+
+#### Überführungsfunktion
+
+| Zustand / Eingabe | $\text{a..Z}$ | $\text{'.'}$ | \text{'@'} | \text{'de'} | \text{'com'} |
+|-------------------|---------------|--------------|------------|-------------|--------------|
+| $a$               | $b$           |              |            |             |              |
+| $b$               | $b$           | $c$          | $d$        |             |              |
+| $c$               | $e$           |              |            |             |              |
+| $d$               | $f$           |              |            |             |              |
+| $e$               | $e$           |              | $d$        |             |              |
+| $f$               | $g$           |              |            |             |              |
+| $g$               | $g$           | $h$          |            |             |              |
+| $h$               | $k$           |              |            | $i$         | $i$          |
+| $i$               |               |              |            |             |              |
+| $k$               | $k$           | $m$          |            |             |              |
+| $m$               |               |              |            | $i$         | $i$          |
 
 Ausgedrückt in Formaler Sprache (BNF):
 
