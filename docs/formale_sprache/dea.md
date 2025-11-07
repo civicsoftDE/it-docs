@@ -54,7 +54,7 @@ Die Gültigkeit des Lemmas basiert darauf, dass es zu jeder regulären Sprache e
 
 Nehmen wir mal den Fall an, dass wir die E-Mail-Adresse ``ich.studiere.an.der@bht-berlin.de`` überprüfen wollen.
 
-Wir definieren: $A=(X,Z,\delta,z_0)$
+Wir definieren: $A=(X,Y,Z,\delta,z_0)$
 
 - $X = \{a..Z, \text{'-'}, \text{'.'},\text{'@'}, \text{'de'}, \text{'com'}\}$
 - $Z = \{a,b,c,d,e,f,g,h,i,k,m\}$
