@@ -79,7 +79,6 @@ Das Zeichen ``-`` fehlt zwar im Graphen, soll hier aber als Teil von ``a..Z`` ge
 | $f$               | $g$           |            |            |             |              |
 | $g$               | $g$           | $h$        |            |             |              |
 | $h$               | $k$           |            |            | $i$         | $i$          |
-| $i$               |               |            |            |             |              |
 | $k$               | $k$           | $m$        |            |             |              |
 | $m$               |               |            |            | $i$         | $i$          |
 
