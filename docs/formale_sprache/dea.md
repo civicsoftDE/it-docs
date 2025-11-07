@@ -56,7 +56,7 @@ Nehmen wir mal den Fall an, dass wir die E-Mail-Adresse ``ich.studiere.an.der@bh
 
 Wir definieren: $A=(X,Z,\delta,z_0)$
 
-- $X = \{a...Z,.,@, \text{'de'}, \text{'com'}\}$
+- $X = \{a...Z, \text{'-'}.,\text{'@'}, \text{'de'}, \text{'com'}\}$
 - $Z = \{a,b,c,d,e,f,g,h,i,k,m\}$
 - $\delta: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0 = a$
