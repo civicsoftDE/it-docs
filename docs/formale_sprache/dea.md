@@ -11,7 +11,7 @@ $A=(X,Y,Z,\delta,z_0)$
 - $X$ Eingabealphabet
 - $Y$ Ausgabealphabet
 - $Z$ Zustandsmenge
-- $\phi: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
+- $\delta: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
 ### Überführungsfunktion
@@ -44,6 +44,15 @@ Die Gültigkeit des Lemmas basiert darauf, dass es zu jeder regulären Sprache e
 ![img.png](/docs/img/pumping_lemma.png)
 
 ### Praktisches Beispiel
+
+Nehmen wir mal den Fall an, dass wir die E-Mail-Adresse ``ich.studiere.an.der@bht-berlin.de`` überprüfen wollen.
+
+Wir definieren: $A=(X,Z,\delta,z_0)$
+
+- $X = \{a...Z,.,@, 'de', 'com'\}$
+- $Z = \{a,b,c,d,e,f,g,h,i,k,m\}$
+- $\delta: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
+- $z_0 = a$
 
 ![img.png](/docs/img/dea_email.png)
 
