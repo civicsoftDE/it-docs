@@ -50,10 +50,10 @@ Die Gültigkeit des Lemmas basiert darauf, dass es zu jeder regulären Sprache e
 Ausgedrückt in Formaler Sprache (BNF):
 
 ````php
-email    = local "@" domain "." tld ;
-local    = label { "." label } ;
-domain   = label { "." label } ;
-label    = letter { letter } ;
-letter   = "a" | "b" | ... | "z" | "A" | ... | "Z" ;
-tld      = "de" | "com" ;
+email    -> local "@" domain "." tld ;
+local    -> label { "." label } ;
+domain   -> label { "." label } ;
+label    -> letter { letter } ;
+letter   -> "a" | "b" | ... | "z" | "A" | ... | "Z" ;
+tld      -> "de" | "com" ;
 ````
