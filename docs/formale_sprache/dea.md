@@ -46,3 +46,14 @@ Die Gültigkeit des Lemmas basiert darauf, dass es zu jeder regulären Sprache e
 ### Praktisches Beispiel
 
 ![img.png](/docs/img/dea_email.png)
+
+Ausgedrückt in Formaler Sprache (BNF):
+
+````php
+email    = local "@" domain "." tld ;
+local    = label { "." label } ;
+domain   = label { "." label } ;
+label    = letter { letter } ;
+letter   = "a" | "b" | ... | "z" | "A" | ... | "Z" ;
+tld      = "de" | "com" ;
+````
