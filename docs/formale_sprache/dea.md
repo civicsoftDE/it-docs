@@ -61,7 +61,7 @@ Wir definieren: $A=(X,Z,\delta,z_0)$
 - $\delta: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0 = a$
 
-![img.png](/docs/img/dea_email.png)
+![img.png](/docs/img/email.svg)
 
 Ausgedrückt in Formaler Sprache (BNF):
 
