@@ -82,6 +82,8 @@ Das Zeichen ``-`` fehlt zwar im Graphen, soll hier aber als Teil von ``a..Z`` ge
 | $k$               | $k$                  | $m$        |            |             |              |
 | $m$               |                      |            |            | $i$         | $i$          |
 
+_(Fehler-Zustände sind hier nicht notiert. Eigentlich muss jedr Zustand alle Überführungen bedienen)_
+
 Ausgedrückt in Formaler Sprache (BNF):
 
 ````php
