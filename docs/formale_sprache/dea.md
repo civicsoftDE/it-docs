@@ -37,6 +37,13 @@ $z_0$   |   $1$   |      $z_1$       |   $1$
 $z_1$   |   $0$   |      $z_1$       |   $0$
 $z_1$   |   $1$   |      $z_0$      |   $1$
 
+## Zustands-Graph
+
+Wir wollen in diesem Beispiel herausfinden, ob eine gegebene Zahl eine gültige römische Zahl ist. Manche Verbindungen sind
+hier aus Gründen der Übersichtlichkeit grün verknüpft.
+
+![](/docs/img/rz.svg)
+
 ## Pumping-Lemma
 
 Die Gültigkeit des Lemmas basiert darauf, dass es zu jeder regulären Sprache einen deterministischen endlichen Automaten gibt, der die Sprache akzeptiert. Über einem endlichen Alphabet enthält eine reguläre Sprache mit unendlich vielen Wörtern auch solche Wörter, die mehr Zeichen enthalten als der Automat Zustände hat. Zum Akzeptieren solcher Wörter muss der Automat also einen Zyklus enthalten, der dann in beliebiger Häufigkeit durchlaufen werden kann. Die Buchstabenfolge, die beim Durchlaufen des Zyklus gelesen wird, kann also entsprechend beliebig oft in Wörtern der Sprache vorkommen.
