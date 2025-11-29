@@ -210,6 +210,7 @@ function getName(string $file): ?string
         'conventions' => 'Konventionen',
         'mengen' => 'Mengen',
         'zahlen' => 'Zahlen',
+        'oop' => 'Objektorientierte Programmierung',
         'selection' => 'Selektion',
         'hesse' => 'Hesse',
         'orm' => 'ORM',
