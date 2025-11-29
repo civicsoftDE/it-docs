@@ -206,6 +206,7 @@ function getName(string $file): ?string
         'normalform' => 'Normalform',
         'numbers' => 'Zahlen',
         'logik' => 'Logik',
+        'streams' => 'Streams',
         'conventions' => 'Konventionen',
         'mengen' => 'Mengen',
         'zahlen' => 'Zahlen',
