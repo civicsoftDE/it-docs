@@ -100,9 +100,11 @@ mir deutlich, wie sehr Technik dann ihren höchsten Wert entfaltet, wenn sie ver
 wartbar und vor allem hilfreich ist: nicht für sich selbst, sondern für die Menschen, die sie nutzen.
 
 Seitdem habe ich mich systematisch weiterentwickelt, unter anderem durch die intensive Auseinandersetzung
-mit modernen Konzepten wie Stream-basierten Transformationen, die ich erst jüngst in Java vertieft habe.
-Ob im generischen Plot-Framework oder in praktischen Anwendungen zur Unterstützung von Abitur-Prüfungsentscheidungen,
-stets ging und geht es mir darum, dass Software klar nachvollziehbar ist.
+mit modernen Konzepten wie Stream-basierten Transformationen (An dieser Stelle ein großer Dank an
+[Pr. Dr.-Ing. Schimkat](http://public.bht-berlin.de/~schimkat/show/info/kurs-mi-b1-pr1.html)),
+die ich erst jüngst in Java vertieft habe. Ob im generischen Plot-Framework oder in praktischen Anwendungen
+zur Unterstützung von Abitur-Prüfungsentscheidungen, stets ging und geht es mir darum, dass Software klar
+nachvollziehbar ist.
 
 Mein Ziel ist es, im Studium der Medieninformatik nicht nur technische Tiefe zu gewinnen,
 sondern auch zu lernen, wie digitale Systeme verantwortungsvoll und human gestaltet werden können.
