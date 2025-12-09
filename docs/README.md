@@ -106,6 +106,8 @@ die ich erst jüngst in Java vertieft habe. Ob im generischen Plot-Framework ode
 zur Unterstützung von Abitur-Prüfungsentscheidungen, stets ging und geht es mir darum, dass Software klar
 nachvollziehbar ist.
 
+Ein Beispiel mit [mathematischer Einführung](https://www.treptowkolleg.de/?page=docs-java-streams.md).
+
 Mein Ziel ist es, im Studium der Medieninformatik nicht nur technische Tiefe zu gewinnen,
 sondern auch zu lernen, wie digitale Systeme verantwortungsvoll und human gestaltet werden können.
 Denn am Ende zählt nicht, wie komplex ein System ist, sondern ob es den Menschen, für den es gedacht ist,
