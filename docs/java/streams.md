@@ -79,7 +79,7 @@ L &= \\{x1, x2, x3, x4\\} \\\
 
 ````java
 public static Adresse createAdresse(Scanner in) {
-        return in.useDelimiter("\\n").tokens()
+        return in.useDelimiter("\\R").tokens()
                 .map(String::trim)
                 .filter(s -> !s.isEmpty())
                 .map(line -> line.split("\\s+"))
