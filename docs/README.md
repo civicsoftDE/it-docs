@@ -88,7 +88,26 @@ In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für di
 
 ### Studium
 
-*to be continued ...*
+Nach dem Abitur absolvierte ich ein Semester im Studiengang Computer Engineering an der HTW Berlin.
+Ab Oktober 2025 setze ich mein Studium im Bachelorstudiengang Medieninformatik an der Berliner Hochschule
+für Technik (BHT) fort, zunächst mit der Belegung der Module Mathematik und Programmierung.
+
+Während meiner bisherigen akademischen und praktischen Laufbahn habe ich gelernt, Software nicht nur als
+funktionalen Code, sondern als Ausdruck klarer Gedanken und als Werkzeug für Menschen zu verstehen.
+Diese Haltung hatte ich bereits vor dem Abitur entwickelt – etwa bei der Gestaltung eigener Systeme mit
+generischen Typen oder beim Aufbau eigener rudimentärer Frameworks. Doch erst während des Abiturs wurde
+mir deutlich, wie sehr Technik dann ihren höchsten Wert entfaltet, wenn sie verständlich,
+wartbar und vor allem hilfreich ist: nicht für sich selbst, sondern für die Menschen, die sie nutzen.
+
+Seitdem habe ich mich systematisch weiterentwickelt, unter anderem durch die intensive Auseinandersetzung
+mit modernen Konzepten wie Stream-basierten Transformationen, die ich erst jüngst in Java vertieft habe.
+Ob im generischen Plot-Framework oder in praktischen Anwendungen zur Unterstützung von Abitur-Prüfungsentscheidungen,
+stets ging und geht es mir darum, dass Software klar nachvollziehbar ist.
+
+Mein Ziel ist es, im Studium der Medieninformatik nicht nur technische Tiefe zu gewinnen,
+sondern auch zu lernen, wie digitale Systeme verantwortungsvoll und human gestaltet werden können.
+Denn am Ende zählt nicht, wie komplex ein System ist, sondern ob es den Menschen, für den es gedacht ist,
+wirklich weiterhilft.
 
 <p>&nbsp;</p>
 
