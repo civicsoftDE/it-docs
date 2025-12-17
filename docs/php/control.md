@@ -1,5 +1,8 @@
 # Kontrollstrukturen
 
+Algorithmen sind schrittweise Anweisungen zur Lösung eines Problems. Algorithmen können Kontrollstrukturen
+enthalten.
+
 Kontrollstrukturen erlauben uns, Code nur unter bestimmten Bedingungen auszuführen. Daher
 werden diese Strukturen auch als Bausteine der Algorithmen bezeichnet.
 
