@@ -1,7 +1,7 @@
 # Kontrollstrukturen
 
 Kontrollstrukturen erlauben uns, Code nur unter bestimmten Bedingungen auszuführen. Daher
-werden diese Strukturen auch als Algorithmen bezeichnet.
+werden diese Strukturen auch als Bausteine der Algorithmen bezeichnet.
 
 ## Vergleichsoperatoren
 
