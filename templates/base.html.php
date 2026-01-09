@@ -86,7 +86,7 @@ use TreptowKolleg\Api\Session;
                                         <a class="p-navigation__link" href="/">Unterricht</a>
                                     </li>
                                     <li class="p-navigation__item">
-                                        <a class="p-navigation__link" href="https://discord.com/channels/1435372897928483001/1435372899077853286" target="_blank">Discord (BHT-MI)</a>
+                                        <a class="p-navigation__link" href="https://discord.com/channels/1435372897928483001" target="_blank">Discord (BHT-MI)</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
