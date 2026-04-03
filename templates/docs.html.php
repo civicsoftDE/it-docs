@@ -6,9 +6,9 @@
 
 use voku\helper\HtmlDomParser;
 
-
 $content = $md ? $mdParser->text($md) : '';
 $html = HtmlDomParser::str_get_html($content);
+
 $links = [];
 $first = true;
 $heading = '';
