@@ -186,7 +186,7 @@ function getName(string $file): ?string
     if (array_key_exists($fileName, $fileNames)) {
         return $fileNames[$fileName];
     } else {
-        return "$fileName ist nicht benannt.";
+        return "$fileName";
     }
 
 }
