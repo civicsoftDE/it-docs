@@ -10,7 +10,6 @@ use TreptowKolleg\Api\Menu\MenuItem;
 use TreptowKolleg\Api\Menu\SidebarMenu;
 
 ?>
-
 <ul class="p-side-navigation__list">
     <?php foreach ($sidebars as $sidebar): ?>
         <?php if ($sidebar instanceof SidebarMenu): ?>

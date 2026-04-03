@@ -1,0 +1,74 @@
+<?php
+
+namespace TreptowKolleg\Api;
+
+class Menu
+{
+
+    public static function getMenu(): array
+    {
+        return [
+            'futuresustainability' => 'Zukunft und Nachhaltigkeit',
+            'election_software' => 'Wahlsoftware',
+            'basics' => 'Grundlagen',
+            'exercise' => 'Übungen',
+            'class' => 'Klassen',
+            'terminal' => 'Terminal',
+            'cases' => 'Fälle',
+            'co' => 'Rechnerorganisation',
+            'cflow' => 'Control Flow',
+            'typsystem' => 'Typsystem',
+            '_index' => 'Einleitung',
+            'pl' => 'Programmiersprachen',
+            'projection' => 'Projektion',
+            'gleichungen' => 'Gleichungen',
+            'linfunc' => 'Lineare Funktionen',
+            'elemfunc' => 'Elementare Funktionen',
+            'inumbers' => 'Komplexe Zahlen',
+            'matrix' => 'Matrizen',
+            'lineq' => 'Lineare Gleichungssysteme',
+            'folgen' => 'Folgen',
+            'diff' => 'Differenzialrechnung',
+            'sum' => 'Summen',
+            'eclipse_intellij' => 'Eclipse & IntelliJ',
+            'normalform' => 'Normalform',
+            'numbers' => 'Zahlen',
+            'logik' => 'Logik',
+            'streams' => 'Streams',
+            'conventions' => 'Konventionen',
+            'mengen' => 'Mengen',
+            'zahlen' => 'Zahlen',
+            'oop' => 'Objektorientierte Programmierung',
+            'selection' => 'Selektion',
+            'hesse' => 'Hesse',
+            'orm' => 'ORM',
+            'erm' => 'ERM',
+            'enum' => 'Enums',
+            'associations' => 'Beziehungen',
+            'vars' => 'Variablen & Konstanten',
+            'magic_methods' => 'Magische Methoden',
+            'tables' => 'Tabellen',
+            'php_ide' => 'PHP IDE',
+            'java_ide' => 'JAVA IDE',
+            'latex_ide' => 'LaTeX IDE',
+            'cpp_ide' => 'C++ IDE',
+            'vector' => 'Vektoren',
+            'relations' => 'Beziehungen',
+            'object_relations' => 'Objektbeziehungen',
+            'class_relations' => 'Klassenbeziehungen',
+            'typo' => 'Typographie',
+            'control' => 'Kontrollstrukturen',
+            'README' => 'Einleitung',
+            'dea' => 'DEA',
+            'elektrische_felder' => 'Elektrische Felder',
+            'kernphysik' => 'Kernphysik',
+            'method' => 'Methoden',
+            'swing' => 'EM-Schwingkreis',
+            'command' => 'Befehle',
+            'index' => 'Startseite',
+            'analysis' => 'Analysis',
+            'gd' => 'Bildbearbeitung',
+        ];
+    }
+
+}

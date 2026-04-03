@@ -69,9 +69,9 @@ use TreptowKolleg\Api\Session;
                             <div class="p-navigation__tagged-logo">
                                 <a class="p-navigation__link" href="/">
                                     <div class="p-navigation__logo-tag">
-                                        <img class="p-navigation__logo-icon" src="/assets/img/tk.png"  alt="Logo">
+                                        <div class="p-navigation__logo-icon" style="color: #0d0d0d; font-size: .6rem">BW</div>
                                     </div>
-                                    <span class="p-navigation__logo-title">AG Informatik</span>
+                                    <span class="p-navigation__logo-title">Benjamin Wagner</span>
                                 </a>
                             </div>
                             <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menü</a>
@@ -83,10 +83,7 @@ use TreptowKolleg\Api\Session;
                             <nav class="p-navigation__nav" aria-label="Example main">
                                 <ul class="p-navigation__items">
                                     <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'docs-') ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/">Unterricht</a>
-                                    </li>
-                                    <li class="p-navigation__item">
-                                        <a class="p-navigation__link" href="https://discord.com/channels/1435372897928483001" target="_blank">Discord (BHT-MI)</a>
+                                        <a class="p-navigation__link" href="/">Docs</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
@@ -181,19 +178,13 @@ use TreptowKolleg\Api\Session;
                     <nav class="col-3" aria-label="Footer">
                         <ul class="p-list u-no-margin--bottom">
                             <li class="p-list__item">
-                                <a class="is-dark" href="https://abi.treptowkolleg.de" target="_blank">5. PK-Prüfungsthemen</a>
-                            </li>
-                            <li class="p-list__item">
-                                <a class="is-dark" href="https://wahl.wagnerpictures.com" target="_blank">Wahl-App</a>
-                            </li>
-                            <li class="p-list__item">
-                                <a class="is-dark" href="https://www.treptow-kolleg.de" target="_blank">Treptow-Kolleg Berlin</a>
+                                <a class="is-dark" href="https://www.github.com/treptowkolleg" target="_blank">Github</a>
                             </li>
                         </ul>
                     </nav>
                     <div class="col-9">
                         <p class="u-no-margin--bottom">
-                            <div class="helper"><span>Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</span></div>
+                            <div class="helper"><span></span></div>
                         </p>
                     </div>
                 </div>
